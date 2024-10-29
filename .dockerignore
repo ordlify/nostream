@@ -14,5 +14,6 @@ Dockerfile
 *.env
 *.md
 .nostr
+!.nostr/settings.yaml
 postgresql.conf
 test/integration/docker-compose.yml
