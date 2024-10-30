@@ -36,6 +36,12 @@ dist
 
 # Nostr data folder
 .nostr
+.nostr/*
+!.nostr/settings.yaml
 
 # Docker Compose overrides
 docker-compose.overrides.yml
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
